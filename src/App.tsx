@@ -52,7 +52,7 @@ const App = () => {
   return (
     <div>
       <Header name={courseName} />
-      <Content parts={courseParts} />
+      <Content courseParts={courseParts} />
       <Total parts={courseParts} />
     </div>
   );
